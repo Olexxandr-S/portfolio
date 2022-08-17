@@ -24,20 +24,20 @@ const Sidebar = () => {
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
         href=""
-        download="name"
+        download="Resume"
       >
         <GiTie className="w-6 h-6" /> Download Resume
       </a>
 
       {/* //social icons */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="">
+        <a href="https://www.linkedin.com/in/olexxandr-s/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://github.com/OlexxandrS">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="">
+        <a href="https://twitter.com/Olexxandr_S">
           <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
@@ -48,11 +48,13 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
-          <GoLocation />
+          <GoLocation className="w-5 h-5" />
           <span>Ukraine</span>
         </div>
-        <p className="my-2">olexandr04s@gmail.com</p>
-        <p className="my-2">+380970786418</p>
+        <p className="my-2 tracking-wider">
+          olexandr04s @gmail.com
+        </p>
+        <p className="my-2">+380 970786418</p>
       </div>
       {/* //Email Button */}
       <button
