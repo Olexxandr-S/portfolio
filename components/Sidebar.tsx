@@ -48,12 +48,10 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center space-x-2">
-          <GoLocation className="w-5 h-5" />
+          <GoLocation className="w-4 h-4" />
           <span>Ukraine</span>
         </div>
-        <p className="my-2 tracking-wider">
-          olexandr04s @gmail.com
-        </p>
+        <p className="my-2 tracking-wider">olexandr04s @gmail.com</p>
         <p className="my-2">+380 970786418</p>
       </div>
       {/* //Email Button */}
