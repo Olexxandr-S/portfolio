@@ -11,13 +11,13 @@ const index = () => {
         Web Development Projects
       </h5>
       <div
-        className="p-4 mt-5 bg-gray-400 flex-grow"
+        className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-black"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h6 className="my-3 font-bold text-xl tracking-wide">What I Offer:</h6>
         <div className="grid lg:grid-cols-2 gap-6 ">
           {services.map((service) => (
-            <div className="lg:col-span-1 bg-gray-200 rounded-lg">
+            <div className="lg:col-span-1 bg-gray-200 rounded-lg dark:bg-dark-200">
               <ServiceCard service={service} />
             </div>
           ))}
