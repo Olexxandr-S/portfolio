@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import "../styles/globals.css";
 import { ThemeProvider } from "next-themes";
-import { AnimatePresence } from "framer-motion";
+// import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -11,11 +11,11 @@ function MyApp({ Component, pageProps }) {
         <div className="col-span-12 p-4 text-center bg-white dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
           <Sidebar />
         </div>
-        <div className="col-span-12 bg-white lg:col-span-9 rounded-2xl flex flex-col overflow-hidden dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark">
+        <div className="flex flex-col col-span-12 overflow-hidden bg-white lg:col-span-9 rounded-2xl dark:bg-dark-500 shadow-custom-light dark:shadow-custom-dark">
           <Navbar />
-          <AnimatePresence exitBeforeEnter>
+          {/* <AnimatePresence exitBeforeEnter> */}
             <Component {...pageProps} key="modal" />
-          </AnimatePresence>
+          {/* </AnimatePresence> */}
         </div>
       </div>
     </ThemeProvider>
