@@ -14,7 +14,7 @@ const ServiceCard: FunctionComponent<{ service: IService }> = ({
     <div className="p-2 flex item-center space-x-4">
       <Icon className="w-12 h12 text-green" />
       <div>
-        <h4 className="font-bold">{title}</h4>
+        <h5 className="font-bold">{title}</h5>
         <p dangerouslySetInnerHTML={createMarkup()} />
       </div>
     </div>

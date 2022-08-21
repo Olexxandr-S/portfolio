@@ -23,16 +23,11 @@ const ProjectsNavbar: FunctionComponent<{
   return (
     <div className="flex space-x-3 px-3 py-2 list-none overflow-x-auto">
       <NavItem value="all" {...props} />
-      <NavItem value="react" {...props} />
-      <NavItem value="django" {...props} />
-      <NavItem value="express" {...props} />
-      <NavItem value="mongo" {...props} />
-      <NavItem value="node" {...props} />
+      <NavItem value="React" {...props} />
+      <NavItem value="JavaScript" {...props} />
+      <NavItem value="React+TypeScript" {...props} />
     </div>
   );
 };
 
 export default ProjectsNavbar;
-function handlerFilterCategory(value: string): void {
-  throw new Error("Function not implemented.");
-}

@@ -2,6 +2,7 @@ import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { motion } from "framer-motion";
 import { fadeInUp, routeAnimation, stagger } from "../animation";
+import Head from "next/head";
 
 const index = () => {
   return (
@@ -11,12 +12,15 @@ const index = () => {
       initial="initial"
       animate="animate"
     >
-      <h5 className="my-3 font-medium">
+      <Head>
+        <title>Web Developer | portfolio</title>
+      </Head>
+      <h6 className="my-3 font-medium">
         I am currently pursuing B.Tech Degree(Final Year) in Computer Science
         Engineering from Academy of Technology. I have 3+ years of experience in
         Web Development and I have a Youtube Channel where I teach Full Stack
         Web Development Projects
-      </h5>
+      </h6>
       <div
         className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-black"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}

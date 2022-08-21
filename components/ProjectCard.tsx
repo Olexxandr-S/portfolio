@@ -5,6 +5,7 @@ import { MdClose } from "react-icons/md";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInUp, stagger } from "../animation";
+import { Link } from "react-scroll";
 
 const ProjectCard: FunctionComponent<{
   project: IProject;
@@ -13,7 +14,6 @@ const ProjectCard: FunctionComponent<{
 }> = ({
   project: {
     name,
-    category,
     deployed_url,
     description,
     github_url,
@@ -24,19 +24,19 @@ const ProjectCard: FunctionComponent<{
   showDetail,
   setShowDetail,
 }) => {
-  // const [showDetail, setShowDetail] = useState(false);
-
   return (
     <div>
-      <Image
-        src={image_path}
-        alt={name}
-        className="cursor-pointer"
-        onClick={() => setShowDetail(id)}
-        width="300"
-        height="150"
-        layout="responsive"
-      />
+      <Link to="top">
+        <Image
+          src={image_path}
+          alt={name}
+          className="cursor-pointer"
+          onClick={() => setShowDetail(id)}
+          width="300"
+          height="150"
+          layout="responsive"
+        />
+      </Link>
       <p className="my-2 text-center ">{name}</p>
       {showDetail === id && (
         <div

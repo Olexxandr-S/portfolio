@@ -25,9 +25,9 @@ const Sidebar = () => {
         layout="intrinsic"
         quality="100"
       />
-      <h3 className="my-3 text-3xl font-medium tracking-wider sm:-ml-6 font-kaushan">
-        <span className="sm:ml-6 text-green">Oleksandr </span>
-        Semeniuk
+      <h3 className="my-3 text-3xl font-medium tracking-wider sm:-ml-4 font-righteous">
+        <span className="text-green">Oleksandr </span>
+        <span className="ml-4">Semeniuk</span>
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
         Front-End Developer
@@ -42,13 +42,16 @@ const Sidebar = () => {
 
       {/* //social icons */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="https://www.linkedin.com/in/olexxandr-s/">
+        <a
+          href="https://www.linkedin.com/in/olexxandr-s/"
+          aria-label="Linkedin"
+        >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/OlexxandrS">
+        <a href="https://github.com/OlexxandrS" aria-label="Github">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://twitter.com/Olexxandr_S">
+        <a href="https://twitter.com/Olexxandr_S" aria-label="Twitter">
           <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
       </div>

@@ -7,7 +7,7 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      kaushan: ["Kaushan Script"],
+      righteous: ["Righteous"],
     },
     boxShadow: {
       "custom-light": "0 0 10px #313131",
