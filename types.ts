@@ -22,4 +22,8 @@ export interface IProject {
   technologies: string[];
 }
 
-export type Category = "React" | "JavaScript" | "React+TypeScript";
+export type Category =
+  | "JavaScript"
+  | "React"
+  | "React+TypeScript"
+  | "React+Redux";

@@ -16,10 +16,10 @@ const index = () => {
         <title>Web Developer | portfolio</title>
       </Head>
       <h6 className="my-3 font-medium">
-        I am currently pursuing B.Tech Degree(Final Year) in Computer Science
-        Engineering from Academy of Technology. I have 3+ years of experience in
-        Web Development and I have a Youtube Channel where I teach Full Stack
-        Web Development Projects
+        I am currently taking Scrimba's The Frontend Developer Career Path
+        course. I have no commercial web development experience, but I have
+        completed several educational projects , using HTML, CSS, JavaScript,
+        Bootstrap, Tailwind CSS, React, Redux.
       </h6>
       <div
         className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-black"

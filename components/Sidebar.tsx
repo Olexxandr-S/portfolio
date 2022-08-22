@@ -30,7 +30,7 @@ const Sidebar = () => {
         <span className="ml-4">Semeniuk</span>
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-        Front-End Developer
+        React Developer
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
@@ -71,8 +71,7 @@ const Sidebar = () => {
       {/* //Email Button */}
       <button
         className="w-10/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none"
-        onClick={() => window.open("mailto:REFACTORING")}
-        // !refactoring
+        onClick={() => window.open("mailto:oleksandr04s@gmail.com")}
       >
         Email Me
       </button>

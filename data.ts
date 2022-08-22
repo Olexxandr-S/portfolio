@@ -14,7 +14,8 @@ export const services: IService[] = [
   },
   {
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>Codewars</b>",
+    about:
+      "a daily problem solver in <b>Codewars</b>, and helping others using <b>Greepper</b>",
     Icon: MdDeveloperMode,
   },
   {
@@ -120,9 +121,9 @@ export const projects: IProject[] = [
     image_path: "/images/Fit_Club.png",
     deployed_url: "https://fitclubolexxandr.herokuapp.com/",
     github_url: "https://github.com/OlexxandrS/FitClub",
-    category: ["JavaScript"],
+    category: ["React"],
     description: "Landing page layout for selling training programs",
-    technologies: ["JavaScript", "React"],
+    technologies: ["JavaScript", "React", "Framer-Motion"],
   },
 
   {
@@ -134,7 +135,7 @@ export const projects: IProject[] = [
     category: ["JavaScript"],
     description:
       "A site that displays movies and series using data from the tv.maze API",
-    technologies: ["JavaScript"],
+    technologies: ["JavaScript", "RestAPI"],
   },
 
   {
@@ -160,7 +161,7 @@ export const projects: IProject[] = [
     category: ["JavaScript"],
     description:
       "A site for a bistro restaurant, when choosing a special menu, it is generated randomly",
-    technologies: ["JavaScript", "Bootstrap", "Vanilla js"],
+    technologies: ["JavaScript", "Bootstrap", "RestAPI"],
   },
 
   {
@@ -172,6 +173,6 @@ export const projects: IProject[] = [
     category: ["JavaScript"],
     description:
       "Rest countries is a project for displaying the countries of the world and information about them, using the countries API",
-    technologies: ["JavaScript", "Vanilla js"],
+    technologies: ["JavaScript", "RestAPI"],
   },
 ];

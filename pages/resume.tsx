@@ -21,13 +21,13 @@ const resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">
-              Computer Science Engineering
-            </h5>
-            <p className="font-semibold ">Academy of Technology (2017-2021)</p>
+            <h5 className="my-2 text-xl font-bold">Electrical Engineering</h5>
+            <p className="font-semibold ">
+              Kyiv Polytechnic Institute (2019-2022)
+            </p>
             <p className="my-3">
-              I am currently pursuing B.tech in Computer Science Engineering
-              from Academy of Technology
+              Now I am learning programming on my own using online educational
+              platforms
             </p>
           </div>
         </motion.div>
@@ -35,10 +35,9 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">Internship</h5>
-            <p className="font-semibold ">Tata Consultancy Services</p>
+            <p className="font-semibold ">...</p>
             <p className="my-3">
-              Test suitability of an website for blind and color-blind persons
-              using Selenium
+              ...
             </p>
           </div>
         </motion.div>
