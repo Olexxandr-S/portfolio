@@ -33,7 +33,7 @@ const Sidebar = () => {
         React Developer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 hover:bg-gray-300 dark:hover:bg-dark-700"
         href="/assets/Resume.pdf"
         download="Semeniuk_Oleksandr_Resume.pdf"
       >
@@ -46,13 +46,13 @@ const Sidebar = () => {
           href="https://www.linkedin.com/in/olexxandr-s/"
           aria-label="Linkedin"
         >
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
+          <AiFillLinkedin className="w-8 h-8 cursor-pointer hover:text-blue-400" />
         </a>
         <a href="https://github.com/OlexxandrS" aria-label="Github">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />
+          <AiFillGithub className="w-8 h-8 cursor-pointer hover:text-blue-400" />
         </a>
         <a href="https://twitter.com/Olexxandr_S" aria-label="Twitter">
-          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
+          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer hover:text-blue-400" />
         </a>
       </div>
 
@@ -71,7 +71,7 @@ const Sidebar = () => {
       {/* //Email Button */}
       <button
         className="w-10/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none"
-        onClick={() => window.open("mailto:oleksandr04s@gmail.com")}
+        onClick={() => window.open("mailto:olexandr04s@gmail.com")}
       >
         Email Me
       </button>

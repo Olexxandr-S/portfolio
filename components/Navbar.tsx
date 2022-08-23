@@ -30,10 +30,10 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between px-5 py-3 my-3">
-      <span className="font-bold text-green text-xl border-b-4 border-green md:text-2xl">
+      <span className="text-xl font-bold border-b-4 text-green border-green md:text-2xl">
         {activeItem}
       </span>
-      <div className="text-lg flex space-x-5">
+      <div className="flex items-center justify-center space-x-5 text-lg">
         <NavItem
           activeItem={activeItem}
           setActiveItem={setActiveItem}
