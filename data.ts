@@ -72,7 +72,7 @@ export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Github",
-    level: "85%",
+    level: "75%",
   },
   {
     Icon: BsCircleFill,
@@ -103,6 +103,7 @@ export const projects: IProject[] = [
     category: ["JavaScript"],
     technologies: ["JavaScript", "RestAPI"],
   },
+
   {
     id: 2,
     name: "Color Generator",
@@ -174,5 +175,17 @@ export const projects: IProject[] = [
     description:
       "Rest countries is a project for displaying the countries of the world and information about them, using the countries API",
     technologies: ["JavaScript", "RestAPI"],
+  },
+
+  {
+    id: 8,
+    name: "To Do App",
+    image_path: "/images/ToDo-App.png",
+    deployed_url: "https://0lexxandr-s-to-do.netlify.app/",
+    github_url: "https://github.com/OlexxandrS/To-Do-App",
+    category: ["React+TypeScript"],
+    description:
+      "A simple 'to-do' application for scheduling tasks, with using local storage, and state-management 'zustand'",
+    technologies: ["React", "Zustand", "Vite"],
   },
 ];
