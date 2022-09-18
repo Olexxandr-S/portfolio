@@ -72,7 +72,7 @@ export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Github",
-    level: "75%",
+    level: "55%",
   },
   {
     Icon: BsCircleFill,
@@ -187,5 +187,17 @@ export const projects: IProject[] = [
     description:
       "A simple 'to-do' application for scheduling tasks, with using local storage, and state-management 'zustand'",
     technologies: ["React", "Zustand", "Vite"],
+  },
+
+  {
+    id: 9,
+    name: "Web Calculator JS OOP",
+    image_path: "/images/Web-Calculator.png",
+    deployed_url: "https://web-calculator-in-js.netlify.app/",
+    github_url:
+      "https://github.com/OlexxandrS/Web-Calculator-in-JS-OOP/tree/main",
+    category: ["JavaScript"],
+    description: "Web Calculator with using JS object-oriented programming concepts.",
+    technologies: ["JavaScript"],
   },
 ];
