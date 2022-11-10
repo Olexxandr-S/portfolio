@@ -183,7 +183,7 @@ export const projects: IProject[] = [
     image_path: "/images/ToDo-App.png",
     deployed_url: "https://0lexxandr-s-to-do.netlify.app/",
     github_url: "https://github.com/OlexxandrS/To-Do-App",
-    category: ["React+TypeScript"],
+    category: ["React+TypeScript", "React"],
     description:
       "A simple 'to-do' application for scheduling tasks, with using local storage, and state-management 'zustand'",
     technologies: ["React", "Zustand", "Vite"],

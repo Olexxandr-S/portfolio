@@ -16,10 +16,10 @@ const index = () => {
         <title>Web Developer | portfolio</title>
       </Head>
       <h6 className="my-3 font-medium">
-        I am currently taking Scrimba's The Frontend Developer Career Path
-        course. I have no commercial web development experience, but I have
+        I am currently practicing front-end development and learning back-end in
+        Node.js. Now I have no commercial web development experience, but I have
         completed several educational projects , using HTML, CSS, JavaScript,
-        Bootstrap, Tailwind CSS, React, Redux.
+        Bootstrap, Tailwind CSS, React.
       </h6>
       <div
         className="p-4 mt-5 bg-gray-400 flex-grow dark:bg-black"

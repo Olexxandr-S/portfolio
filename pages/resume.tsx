@@ -21,7 +21,7 @@ const resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">Electrical Engineering</h5>
+            <h5 className="my-2 text-xl font-bold">Bachelor of Engineering</h5>
             <p className="font-semibold ">
               Kyiv Polytechnic Institute (2019-2022)
             </p>
@@ -34,11 +34,16 @@ const resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold">Internship</h5>
-            <p className="font-semibold ">...</p>
-            <p className="my-3">
-              ...
+            <h5 className="my-2 text-xl font-bold">Courses</h5>
+            <p className="font-semibold ">
+              <a
+                href="https://scrimba.com/certificate/ukZ6Pksa/gfrontend"
+                aria-label="Certificate"
+              >
+                The Frontend Developer Career Path (2022)
+              </a>
             </p>
+            <p className="my-3"></p>
           </div>
         </motion.div>
       </div>
