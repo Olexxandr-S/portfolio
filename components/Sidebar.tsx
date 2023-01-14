@@ -17,8 +17,8 @@ const Sidebar = () => {
   return (
     <div>
       <Image
-        src="https://media-exp1.licdn.com/dms/image/C4E03AQGl9mImD4rSnQ/profile-displayphoto-shrink_800_800/0/1651672118638?e=1671667200&v=beta&t=2O3-gGREyUt1Pe68z-YkIGrWPbPqOBnVSvcXYpHn8DY"
-        alt="user avatar"
+        src="/images/user_avatar.jfif"
+        alt="avatar"
         className="mx-auto rounded-full"
         height="128"
         width="128"
