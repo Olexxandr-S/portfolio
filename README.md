@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://easybase.io">
+  <a href="https://0lexxandr-s-portfolio.vercel.app/">
     <img src="https://0lexxandr-s-portfolio.vercel.app/assets/images/Web-Dev-Portfolio.png" alt="Web-Dev Portfolio" >
   </a>
 </p>
@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://easybase.io">
+  <a href="https://0lexxandr-s-portfolio.vercel.app/">
     <img src="https://0lexxandr-s-portfolio.vercel.app/assets/images/Web-Dev-Portfolio-theme.png" alt="Web-Dev Portfolio" >
   </a>
 </p>
@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  <a href="https://easybase.io">
+  <a href="https://0lexxandr-s-portfolio.vercel.app/">
     <img src="https://0lexxandr-s-portfolio.vercel.app/assets/images/Web-Dev-Portfolio-projects.png" alt="Web-Dev Portfolio" >
   </a>
 </p>
