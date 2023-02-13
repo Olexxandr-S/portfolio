@@ -1,24 +1,45 @@
+<br />
+
+# 🌟 Web-Dev Portfolio
+
+<p align="center"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"> <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue"> <img src="https://img.shields.io/badge/postcss-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white"> </p>
+
+<br />
+
+<p align="center">
+  <b>✨ Fascinating and Colorful One-Page portfolio featuring animation effects.</b>
+</p>
+
+<p align="center">
+  <a href="https://easybase.io">
+    <img src="https://0lexxandr-s-portfolio.vercel.app/assets/images/Web-Dev-Portfolio.png" alt="Web-Dev Portfolio" >
+  </a>
+</p>
+
+<p align="center">
+  <b>✨ In sidebar you can download a resume, visit the main social networks, change themes, and send an Email.</b>
+</p>
+
+<p align="center">
+  <a href="https://easybase.io">
+    <img src="https://0lexxandr-s-portfolio.vercel.app/assets/images/Web-Dev-Portfolio-theme.png" alt="Web-Dev Portfolio" >
+  </a>
+</p>
+
+<p align="center">
+  <b>✨ Also in the main section, the portfolio has a page of projects, information, and a resume.</b>
+</p>
+
+<p align="center">
+  <a href="https://easybase.io">
+    <img src="https://0lexxandr-s-portfolio.vercel.app/assets/images/Web-Dev-Portfolio-projects.png" alt="Web-Dev Portfolio" >
+  </a>
+</p>
+
+
+## 📝 Learn More
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -27,8 +48,10 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ ## 🚀 Deploy on Vercel
+ 
+ - [Vercel documentation](https://vercel.com/docs/concepts/deployments/overview) - learn about Vercel features.
+ 
+<p align="center">
+ <img src="https://vercelbadge.vercel.app/api/Olexxandr-S/portfolio">
+</p>
