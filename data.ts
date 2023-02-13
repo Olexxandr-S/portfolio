@@ -97,7 +97,7 @@ export const projects: IProject[] = [
     name: "QR-Code-Generator",
     description:
       "This application allows you to generate a QR code, from a link or text",
-    image_path: "/images/QR_Code_Generator.png",
+    image_path: "/assets/images/QR_Code_Generator.png",
     deployed_url: "https://olexxandrs.github.io/QR-Code-Generator/",
     github_url: "https://github.com/Olexxandr-S/QR-Code-Generator",
     category: ["JavaScript"],
@@ -107,7 +107,7 @@ export const projects: IProject[] = [
   {
     id: 2,
     name: "Color Generator",
-    image_path: "/images/ColorGenerator.png",
+    image_path: "/assets/images/ColorGenerator.png",
     deployed_url: "https://0lexxandr-color-generator.netlify.app/",
     github_url: "https://github.com/Olexxandr-S/Color-Generator",
     category: ["React"],
@@ -130,7 +130,7 @@ export const projects: IProject[] = [
   {
     id: 4,
     name: "Tv Show App",
-    image_path: "/images/tv-show-dom-project.png",
+    image_path: "/assets/images/tv-show-dom-project.png",
     deployed_url: "https://olexxandr-s.github.io/tv-show-dom-project/",
     github_url: "https://github.com/Olexxandr-S/tv-show-dom-project",
     category: ["JavaScript"],
@@ -142,7 +142,7 @@ export const projects: IProject[] = [
   {
     id: 5,
     name: "Space-Invaders Game",
-    image_path: "/images/Space-Invaders.png",
+    image_path: "/assets/images/Space-Invaders.png",
     deployed_url: "https://olexxandr-s.github.io/space-invaders/",
     github_url: "https://github.com/Olexxandr-S/space-invaders",
     category: ["JavaScript"],
@@ -154,7 +154,7 @@ export const projects: IProject[] = [
   {
     id: 6,
     name: "DAVID CHU'S CHINA BISTRO",
-    image_path: "/images/China_Bistro.png",
+    image_path: "/assets/images/China_Bistro.png",
     deployed_url:
       "https://olexxandr-s.github.io/coursera_course/module5-solution/",
     github_url:
@@ -168,7 +168,7 @@ export const projects: IProject[] = [
   {
     id: 7,
     name: "Rest Countries",
-    image_path: "/images/Rest-Countries.png",
+    image_path: "/assets/images/Rest-Countries.png",
     deployed_url: "https://olexxandr-s.github.io/Rest-Countries/",
     github_url: "https://github.com/Olexxandr-S/Rest-Countries",
     category: ["JavaScript"],
@@ -180,7 +180,7 @@ export const projects: IProject[] = [
   {
     id: 8,
     name: "To Do App",
-    image_path: "/images/ToDo-App.png",
+    image_path: "/assets/images/ToDo-App.png",
     deployed_url: "https://0lexxandr-s-to-do.netlify.app/",
     github_url: "https://github.com/Olexxandr-S/To-Do-App",
     category: ["React+TypeScript", "React"],
@@ -205,7 +205,7 @@ export const projects: IProject[] = [
   {
     id: 10,
     name: "Fit Club",
-    image_path: "/images/Fit_Club.png",
+    image_path: "/assets/images/Fit_Club.png",
     deployed_url: "https://0lexxandr-s-fitclub.vercel.app/",
     github_url: "https://github.com/Olexxandr-S/FitClub",
     category: ["React"],

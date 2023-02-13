@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <div>
       <Image
-        src="/images/user_avatar.jfif"
+        src="/assets/images/user_avatar.jfif"
         alt="avatar"
         className="mx-auto rounded-full"
         height="128"
