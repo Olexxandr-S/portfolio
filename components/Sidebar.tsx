@@ -30,7 +30,7 @@ const Sidebar = () => {
         <span className="ml-4">Semeniuk</span>
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-        React Developer
+        Web Developer
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 hover:bg-gray-300 dark:hover:bg-dark-700"
@@ -48,7 +48,7 @@ const Sidebar = () => {
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer hover:text-blue-400" />
         </a>
-        <a href="https://github.com/OlexxandrS" aria-label="Github">
+        <a href="https://github.com/Olexxandr-S" aria-label="Github">
           <AiFillGithub className="w-8 h-8 cursor-pointer hover:text-blue-400" />
         </a>
         <a href="https://twitter.com/Olexxandr_S" aria-label="Twitter">

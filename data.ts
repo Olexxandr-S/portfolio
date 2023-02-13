@@ -99,7 +99,7 @@ export const projects: IProject[] = [
       "This application allows you to generate a QR code, from a link or text",
     image_path: "/images/QR_Code_Generator.png",
     deployed_url: "https://olexxandrs.github.io/QR-Code-Generator/",
-    github_url: "https://github.com/OlexxandrS/QR-Code-Generator",
+    github_url: "https://github.com/Olexxandr-S/QR-Code-Generator",
     category: ["JavaScript"],
     technologies: ["JavaScript", "RestAPI"],
   },
@@ -109,7 +109,7 @@ export const projects: IProject[] = [
     name: "Color Generator",
     image_path: "/images/ColorGenerator.png",
     deployed_url: "https://0lexxandr-color-generator.netlify.app/",
-    github_url: "https://github.com/OlexxandrS/Color-Generator",
+    github_url: "https://github.com/Olexxandr-S/Color-Generator",
     category: ["React"],
     description:
       "An web app which makes it possible to generate all shades of the desired color",
@@ -118,21 +118,21 @@ export const projects: IProject[] = [
 
   {
     id: 3,
-    name: "Fit Club",
-    image_path: "/images/Fit_Club.png",
-    deployed_url: "https://fitclubolexxandr.herokuapp.com/",
-    github_url: "https://github.com/OlexxandrS/FitClub",
-    category: ["React"],
-    description: "Landing page layout for selling training programs",
-    technologies: ["JavaScript", "React", "Framer-Motion"],
+    name: "Kanban Board with dnd",
+    image_path: "/assets/images/Kanban_Board.png",
+    deployed_url: "https://0lexxandr-s-kanban-board.netlify.app/",
+    github_url: "https://github.com/Olexxandr-S/kanban-board",
+    category: ["React+TypeScript", "React"],
+    description: "Kanban board App with dnd kit and React + TypeScript.",
+    technologies: ["React", "Vite", "Chakra-ui", "TypeScript", "Framer-Motion"],
   },
 
   {
     id: 4,
     name: "Tv Show App",
     image_path: "/images/tv-show-dom-project.png",
-    deployed_url: "https://olexxandrs.github.io/tv-show-dom-project/",
-    github_url: "https://github.com/OlexxandrS/tv-show-dom-project",
+    deployed_url: "https://olexxandr-s.github.io/tv-show-dom-project/",
+    github_url: "https://github.com/Olexxandr-S/tv-show-dom-project",
     category: ["JavaScript"],
     description:
       "A site that displays movies and series using data from the tv.maze API",
@@ -143,8 +143,8 @@ export const projects: IProject[] = [
     id: 5,
     name: "Space-Invaders Game",
     image_path: "/images/Space-Invaders.png",
-    deployed_url: "https://olexxandrs.github.io/space-invaders/",
-    github_url: "https://github.com/OlexxandrS/space-invaders",
+    deployed_url: "https://olexxandr-s.github.io/space-invaders/",
+    github_url: "https://github.com/Olexxandr-S/space-invaders",
     category: ["JavaScript"],
     description:
       "A simple rarity game where you have to destroy alien invaders",
@@ -156,9 +156,9 @@ export const projects: IProject[] = [
     name: "DAVID CHU'S CHINA BISTRO",
     image_path: "/images/China_Bistro.png",
     deployed_url:
-      "https://olexxandrs.github.io/coursera_course/module5-solution/",
+      "https://olexxandr-s.github.io/coursera_course/module5-solution/",
     github_url:
-      "https://github.com/OlexxandrS/coursera_course/tree/gh-pages/module5-solution",
+      "https://github.com/Olexxandr-S/coursera_course/tree/gh-pages/module5-solution",
     category: ["JavaScript"],
     description:
       "A site for a bistro restaurant, when choosing a special menu, it is generated randomly",
@@ -169,8 +169,8 @@ export const projects: IProject[] = [
     id: 7,
     name: "Rest Countries",
     image_path: "/images/Rest-Countries.png",
-    deployed_url: "https://olexxandrs.github.io/Rest-Countries/",
-    github_url: "https://github.com/OlexxandrS/Rest-Countries",
+    deployed_url: "https://olexxandr-s.github.io/Rest-Countries/",
+    github_url: "https://github.com/Olexxandr-S/Rest-Countries",
     category: ["JavaScript"],
     description:
       "Rest countries is a project for displaying the countries of the world and information about them, using the countries API",
@@ -182,7 +182,7 @@ export const projects: IProject[] = [
     name: "To Do App",
     image_path: "/images/ToDo-App.png",
     deployed_url: "https://0lexxandr-s-to-do.netlify.app/",
-    github_url: "https://github.com/OlexxandrS/To-Do-App",
+    github_url: "https://github.com/Olexxandr-S/To-Do-App",
     category: ["React+TypeScript", "React"],
     description:
       "A simple 'to-do' application for scheduling tasks, with using local storage, and state-management 'zustand'",
@@ -192,12 +192,47 @@ export const projects: IProject[] = [
   {
     id: 9,
     name: "Web Calculator JS OOP",
-    image_path: "/images/Web-Calculator.png",
+    image_path: "/assets/images/Web-Calculator.png",
     deployed_url: "https://web-calculator-in-js.netlify.app/",
     github_url:
-      "https://github.com/OlexxandrS/Web-Calculator-in-JS-OOP/tree/main",
+      "https://github.com/Olexxandr-S/Web-Calculator-in-JS-OOP/tree/main",
     category: ["JavaScript"],
-    description: "Web Calculator with using JS object-oriented programming concepts.",
+    description:
+      "Web Calculator with using JS object-oriented programming concepts.",
     technologies: ["JavaScript"],
+  },
+
+  {
+    id: 10,
+    name: "Fit Club",
+    image_path: "/images/Fit_Club.png",
+    deployed_url: "https://0lexxandr-s-fitclub.vercel.app/",
+    github_url: "https://github.com/Olexxandr-S/FitClub",
+    category: ["React"],
+    description: "Landing page layout for selling training programs",
+    technologies: ["JavaScript", "React", "Framer-Motion"],
+  },
+
+  {
+    id: 11,
+    name: "2048-game (only for desktop)",
+    image_path: "/assets/images/2048-game.png",
+    deployed_url: "https://0lexxandr-s-2048-game.netlify.app/",
+    github_url: "https://github.com/Olexxandr-S/2048-game",
+    category: ["React+TypeScript", "React"],
+    description: "2048 Game App using React + TypeScript (only for desktop).",
+    technologies: ["React", "Carco", "TypeScript"],
+  },
+
+  {
+    id: 12,
+    name: "Hotel app",
+    image_path: "/assets/images/Hotel_in_react.png",
+    deployed_url: "https://hotel-in-react.netlify.app/",
+    github_url: "https://github.com/Olexxandr-S/hotel-react",
+    category: ["React"],
+    description:
+      "A hotel booking application in React. Homework for the CodeYourFuture React module.",
+    technologies: ["React"],
   },
 ];
