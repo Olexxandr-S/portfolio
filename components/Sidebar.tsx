@@ -34,10 +34,10 @@ const Sidebar = () => {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 hover:bg-gray-300 dark:hover:bg-dark-700"
-        href="/assets/Resume.pdf"
-        download="Semeniuk_Oleksandr_Resume.pdf"
+        href="/assets/CV_Junior-Web-Developer_Oleksandr-Semeniuk_Eng.pdf"
+        download="CV_Oleksandr-Semeniuk_Junior-Web-Developer_Eng.pdf"
       >
-        <GiTie className="w-6 h-6" /> Download Resume
+        <GiTie className="w-6 h-6" /> Download CV
       </a>
 
       {/* //social icons */}
